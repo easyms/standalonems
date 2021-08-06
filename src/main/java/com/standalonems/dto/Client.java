@@ -1,0 +1,17 @@
+package com.standalonems.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+@AllArgsConstructor
+public class Client
+{
+    private long id;
+    private String name;
+    private String lastName;
+    private String email;
+    private String cat;
+}
